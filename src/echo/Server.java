@@ -13,7 +13,7 @@ public class Server {
 		ServerSocket serverSocket = new ServerSocket();
 		
 		//바인드
-		serverSocket.bind(new InetSocketAddress("183.100.42.183", 10001));
+		serverSocket.bind(new InetSocketAddress("172.30.1.30", 10001));
 		
 		System.out.println("<서버 시작");
 		System.out.println("============================");
